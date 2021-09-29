@@ -1,34 +1,34 @@
 
 function pyramid(n){
     if (n <=0 || n%2 == 0){
-        console.log('Podana liczba jest niewłaściwa!')
+        throw new Error(`Podana liczba ${n} jest niewłaściwa!`)
     } else {
-     
-        
+        str = ""    
         for (let i=1; i<=n; i= i+2){
-            console.log(" ".repeat((n-i)/2)+"#".repeat(i))
-            
-        } 
+            str = str + " ".repeat((n-i)/2)+"#".repeat(i)+ "\n"
+        
+           
+        } return str 
     }
 }
 
-pyramid(9)
+
+console.log(pyramid(9))
 //     #
 //    ###
 //   #####
 //  #######
 // #########
 
-pyramid(1)
+console.log(pyramid(1))
 // #
  
-pyramid(5)
+console.log(pyramid(5))
 //   #
 //  ###
 // #####
 
-pyramid(-2)
+console.log(pyramid(-2))
 
-pyramid(4)
+console.log(pyramid(4))
 
-pyramid(11)
