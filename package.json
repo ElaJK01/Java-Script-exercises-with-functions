@@ -1,0 +1,30 @@
+{
+  "name": "exercises-2-functions-elajk01",
+  "version": "1.0.0",
+  "description": "exercises-function",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.2"
+  },
+  "scripts": {
+    "test": "test",
+    "eslint": "eslint --fix script.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pl-incode/exercises-2-functions-ElaJK01.git"
+  },
+  "keywords": [
+    "functions",
+    "js"
+  ],
+  "author": "EJK",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pl-incode/exercises-2-functions-ElaJK01/issues"
+  },
+  "homepage": "https://github.com/pl-incode/exercises-2-functions-ElaJK01#readme"
+}
